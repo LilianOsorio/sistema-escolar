@@ -1,0 +1,237 @@
+body {
+    background-image: url('imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-color: rgb(234, 234, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* INICIO DE SESIÓN */
+.contenedor-inicio {
+    background-color: white;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contenedor-inicio h2 {
+    color: rgb(30, 30, 127);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contenedor-inicio p {
+    color: rgb(14, 14, 175);
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.datos {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.datos label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.datos input {
+    width: 90%; 
+    padding: 10px 12px;
+    border: 1px solid rgb(113, 170, 244);
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.boton-inicio {
+    width: 100%;
+    padding: 15px;
+    background-color: #2c6eb4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.boton-inicio:hover {
+    background-color: rgb(147, 147, 217);
+}
+
+/* TABLA CALIFICACIONES */
+body:has(.contenedor-tabla) {
+    justify-content: flex-start;
+    padding-top: 40px;
+}
+
+.encabezado-escuela {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.encabezado-escuela h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.encabezado-escuela p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.contenedor-tabla {
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contenedor-tabla h2 {
+    color: rgb(52, 64, 95);
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000103;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+}
+
+th {
+    background-color: #2b6cb0;
+    color: white;
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: #f7fafc; 
+}
+
+/* Estudiante */
+.link-estudiante {
+    color: #3182ce;
+    font-weight: 600;
+}
+
+.link-estudiante:hover {
+    text-decoration: underline;
+}
+
+/* PERFIL */
+.contenedor-perfil {
+    background-color: #ffffff;
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contenedor-perfil h2 {
+    color: #041c3d;
+    margin-bottom: 20px;
+}
+
+.perfil-fotografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    border: 4px solid #001021;
+    margin-bottom: 15px;
+}
+
+.perfil-fotografia h3 {
+    color: #032052;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.detalles-perfil {
+    width: 100%;
+    list-style: none;
+    text-align: left;
+    background-color: #f7fafc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* BOTONES NAVEGACIÓN */
+.retroceder {
+    margin-top: 15px;
+}
+
+.boton-atras {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 1px solid #033d7a;
+    border-radius: 6px;
+    background-color: #003971;
+    transition: all 0.2s;
+}
+
+.boton-inicio {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 1px solid #033d7a;
+    border-radius: 6px;
+    background-color: #003971;
+    transition: all 0.2s;
+}
+
+
+.boton-atras:hover {
+    background-color: #cbd5e0;
+    color: #2d3748;
+}

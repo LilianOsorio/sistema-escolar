@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Escolar - Inicio de Sesión </title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <div class="contenedor-inicio">
+        <h2>Bienvenido al Sistema Escolar</h2>
+        <p>Ingrese sus datos para inciar sesión</p>
+
+        <form action="calificaciones.html" method="GET">
+
+            <!--USUARIO-->
+            <div class="datos">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" 
+                name="usuario" placeholder="Ejem. nombre_usuario"
+                minlength="10" maxlength="25" required>
+            </div> <br>
+
+            <!--CORREO ELECTRONICO-->
+            <div class="datos">
+                <label for="correo electronico">Correo electronico:</label>
+                <input type="email" id="correo" name="correo"
+                placeholder="user@example.com" required>
+            </div> <br>
+
+            <!--CONTRASEÑA-->
+            <div class="datos">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password"
+                name="password" placeholder="Ingrese su contraseña"
+                minlength="8" maxlength="20" required>
+            </div> <br><br>
+
+            <!--BOTÓN DE INICIO-->
+            <button type="submit" class="boton-inicio">Inciar Sesión</button>
+        
+        </form>
+    </div>
+
+</body>
+</html>
